@@ -1,0 +1,1 @@
+{"schema":"urn:com.ticketmaster.services:schema:ismds:EventSegmentAvailablePlaces:1.0","meta":{"type":"urn:com.ticketmaster.services:type:ismds:EventSegmentAvailablePlaces"},"eventId":"0F004CFCCA844D21","segmentId":"s_41","availablePlaces":[],"_links":{"self":[{"href":"/api/ismds/host/0F004CFCCA844D21/s_41/availability"}],"event":[{"href":"/api/ismds/event/0F004CFCCA844D21"}]}}

@@ -1,0 +1,1 @@
+{"schema":"urn:com.ticketmaster.services:schema:ismds:Home:1.0","meta":{"type":"urn:com.ticketmaster.services:type:ismds:Home"},"service":"com.ticketmaster.ismds","version":"2.11.0","_links":{"self":[{"href":"/api/ismds/"}],"event":[{"href":"/api/ismds/event/{eventId}","templated":true}]}}

@@ -7,8 +7,16 @@ class User(models.Model):
     return self.user_name
 
 class Seat(models.Model):
-  number = models.IntegerField(default=0)
-  user = models.ForeignKey(User)
+  position = models.CharField(max_length=60)
+  price = models.DecimalField(max_digits=10, decimal_places=1)
   def __str__(self):
-    return str(self.number)
+    return str(self.position)
+
+class Segment(models.Model):
+  segmentId = models.CharField(max_length=60)
+  placesTotal = models.IntegerField()
+  placesAvailable = models.IntegerField()
+
+  def __str__(self):
+    return str(self.segmentId)
 # Create your models here.

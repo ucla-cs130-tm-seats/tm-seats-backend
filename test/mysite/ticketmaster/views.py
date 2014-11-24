@@ -1,3 +1,4 @@
+import json
 from django.shortcuts import render, render_to_response, get_object_or_404
 from django.http import HttpResponse
 from ticketmaster.models import User, Seat
@@ -32,3 +33,12 @@ def validate(request):
        return render(request, 'ticketmaster/detail.html',
        {'text': 'Password incorrect',
        })
+
+def readJsonFilesIntoDatabase():
+  json_data = open('event-data/0F004CFCCA844D21/0F004CFCCA844D21.availability.json')
+  data = json.load(json.data)
+
+  if 'availablePlaces' in data:
+    availablePlaces = data['availablePlaces']
+    for place in availableSeats:
+      seat = Seat.objects.create(position=place)
