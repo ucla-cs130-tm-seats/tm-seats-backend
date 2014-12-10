@@ -1,0 +1,1 @@
+{"schema":"urn:com.ticketmaster.services:schema:common:Status:1.0","meta":{"type":"urn:com.ticketmaster.services:type:common:Status"},"timestamp":"2014-10-28T23:54:14.239Z","code":"Error.NotFound.EventSegment","title":"Event Segment Not Found","message":"The requested segment does not exist.","detail":{"eventId":"0F004CFCCA844D21","segmentId":"s_2"}}
