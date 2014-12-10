@@ -1,0 +1,1 @@
+{"schema":"urn:com.ticketmaster.services:schema:ismds:EventSegmentPricing:1.0","meta":{"type":"urn:com.ticketmaster.services:type:ismds:EventSegmentPricing"},"eventId":"0F004CFCCA844D21","segmentId":"s_62","currency":null,"prices":[],"_links":{"self":[{"href":"/api/ismds/host/0F004CFCCA844D21/s_62/pricing"}],"event":[{"href":"/api/ismds/event/0F004CFCCA844D21"}]}}
